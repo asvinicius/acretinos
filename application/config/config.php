@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | environments.
 |
 */
-$config['base_url'] = 'http://'.$_SERVER['SERVER_ADDR'].'/gradesleague/';
+$config['base_url'] = 'http://'.$_SERVER['SERVER_ADDR'].'/acretinos/';
 
 /*
 |--------------------------------------------------------------------------

@@ -1,46 +1,87 @@
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
-        <link rel="icon" type="image/png" sizes="96x96" href="assets/img/favicon.png">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
-        <meta name="viewport" content="width=device-width" />
-        <link href="<?= base_url('assets/css/bootstrap.min.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/animate.min.css'); ?>" rel="stylesheet"/>
-        <link href="<?= base_url('assets/css/paper-dashboard.css'); ?>" rel="stylesheet"/>
-        <link href="<?= base_url('assets/css/demo.css'); ?>" rel="stylesheet" />
-        <link href="<?= base_url('assets/css/font-awesome.min.css'); ?>" rel="stylesheet">
-        <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
-        <link href="<?= base_url('assets/css/themify-icons.css'); ?>" rel="stylesheet">
-
-    </head>
-        <footer class="footer">
-            <div class="container-fluid">
-                <div class="copyright pull-left">
-                    BTGL | Versão 2.0
-                </div>
-                <div class="copyright pull-right">
-                    &copy; <script>document.write(new Date().getFullYear())</script>, feito por <a href="https://www.github.com/asvinicius">Vinícius Anjos</a>
+<section id="bottom">
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <div class="aligncenter">
+                    <div id="twitter-wrapper">
+                        <div id="twitter">
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
-
         </div>
     </div>
+</section>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="span6">
+                <div class="widget">
+                    <h5 class="widgetheading">Administradores</h5>
+                    <p>
+                        <strong>LIGA ACRETINOS</strong><br>
+                        <i class="icon-phone"></i> Dealesson - (068) 9 9926-4852 <br>
+                        <i class="icon-phone"></i> Filipe - (068)  9 9966-0246 <br>
+                        <i class="icon-phone"></i> Matias - (068) 9 9968-4143 <br>
+                        <i class="icon-phone"></i> Vinícius - (068) 9 9203-8448 <br>
+                        <i class="icon-phone"></i> Wisley - (068) 9 9967-8391 <br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="span6">
+                    <div class="copyright">
+                        <p>
+                            <span>&copy; ACRETINOS - Todos os direitos reservados.</span>
+                        </p>
+                        <div class="credits">
+                            <!--
+                              All the links in the footer should remain intact.
+                              You can delete the links only if you purchased the pro version.
+                              Licensing information: https://bootstrapmade.com/license/
+                              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Flattern
+                            -->
+                            Desenvolvido por Vinícius Anjos |  Tema por <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="span6">
+                    <ul class="social-network">
+                        <li><a href="https://www.facebook.com/acretinosliga" data-placement="bottom" title="Facebook" target="_blank"><i class="icon-facebook"></i></a></li>
+                        <li><a href="https://instagram.com/acretinosliga" data-placement="bottom" title="Instagram" target="_blank"><i class="icon-camera"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</div>
+<a href="#" class="scrollup"><i class="icon-chevron-up icon-square icon-32 active"></i></a>
+<!-- javascript
+  ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
 
+<script src="<?= base_url('assets/js/jquery.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.easing.1.3.js'); ?>"></script>
+<script src="<?= base_url('assets/js/bootstrap.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jcarousel/jquery.jcarousel.min.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.fancybox.pack.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.fancybox-media.js'); ?>"></script>
+<script src="<?= base_url('assets/js/google-code-prettify/prettify.js'); ?>"></script>
+<script src="<?= base_url('assets/js/portfolio/jquery.quicksand.js'); ?>"></script>
+<script src="<?= base_url('assets/js/portfolio/setting.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.flexslider.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.nivo.slider.js'); ?>"></script>
+<script src="<?= base_url('assets/js/modernizr.custom.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.ba-cond.min.js'); ?>"></script>
+<script src="<?= base_url('assets/js/jquery.slitslider.js'); ?>"></script>
+<script src="<?= base_url('assets/js/animate.js'); ?>"></script>
+<script src="<?= base_url('assets/js/custom.js'); ?>"></script>
 
 </body>
-
-    <!--   Core JS Files   -->
-    <script src="<?= base_url('assets/js/jquery-1.10.2.js'); ?>" type="text/javascript"></script>
-    <script src="<?= base_url('assets/js/bootstrap.min.js'); ?>" type="text/javascript"></script>
-    <script src="<?= base_url('assets/js/bootstrap-checkbox-radio.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/chartist.min.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/bootstrap-notify.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/paper-dashboard.js'); ?>"></script>
-    <script src="<?= base_url('assets/js/demo.js'); ?>"></script>
-
 </html>
