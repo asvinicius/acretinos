@@ -1,5 +1,5 @@
 <head>
-    <title>Contato | SINDOJUS-AC</title>
+    <title>Contato</title>
 </head>
 <section id="inner-headline">
     <div class="container">
@@ -15,39 +15,61 @@
 <section id="content">
     <div class="container">
         <div class="row">
-            <div class="span12">
-                <?php if($sendmessage  != null){ ?>
-                    <div class="<?php echo $sendmessage['class']; ?>">
-                        <button type="button" class="close" data-dismiss="alert">&times;</button>
-                        <?php echo $sendmessage['message']; ?>
-                    </div>
-                <?php } ?>
-                <h4>Nos mande uma mensagem</h4>
-
-                <form action="<?= base_url('contact/sendmessage'); ?>" method="post" class="contactForm">
-                    <div class="row">
-                        <div class="span4 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Nome" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="span4 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="span4 form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                            <div class="validation"></div>
-                        </div>
-                        <div class="span12 margintop10 form-group">
-                            <textarea class="form-control" name="message" rows="12" data-rule="required" data-msg="Escreva sua mensagem" placeholder="Escreva sua mensagem" style="resize: none"></textarea>
-                            <div class="validation"></div>
-                            <p class="text-center">
-                                <button class="btn btn-large btn-theme margintop10" type="submit">Enviar</button>
-                            </p>
-                        </div>
-                    </div>
-                </form>
-            </div>
+			<div class="span12">
+				<h4>Fale com um de nossos <strong>Administradores</strong></h4>
+			</div>
+			<div class="span3">
+				<div class="pricing-box-alt">
+					<div class="pricing-heading">
+						<h3><strong>Dealesson</strong></h3>
+					</div>
+					<div class="pricing-terms">
+						<h6>68 99926-4852</h6>
+					</div>
+					<div class="pricing-action">
+						<a href="https://api.whatsapp.com/send?phone=5568999264852&text=Olá, Dealesson. Estou entrando em contato a partir do site da Liga Acretinos." class="btn btn-medium btn-theme" target="_blank"><i class="icon-comment" ></i> Whatsapp</a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="pricing-box-alt">
+					<div class="pricing-heading">
+						<h3><strong>Matias</strong></h3>
+					</div>
+					<div class="pricing-terms">
+						<h6>68 98405-1567</h6>
+					</div>
+					<div class="pricing-action">
+						<a href="https://api.whatsapp.com/send?phone=5568984051567&text=Olá, Matias. Estou entrando em contato a partir do site da Liga Acretinos." class="btn btn-medium btn-theme" target="_blank"><i class="icon-comment" ></i> Whatsapp</a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="pricing-box-alt">
+					<div class="pricing-heading">
+						<h3><strong>Vinícius</strong></h3>
+					</div>
+					<div class="pricing-terms">
+						<h6>68 99203-8448</h6>
+					</div>
+					<div class="pricing-action">
+						<a href="https://api.whatsapp.com/send?phone=5568992038448&text=Olá, Vinícius. Estou entrando em contato a partir do site da Liga Acretinos." class="btn btn-medium btn-theme" target="_blank"><i class="icon-comment" ></i> Whatsapp</a>
+					</div>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="pricing-box-alt">
+					<div class="pricing-heading">
+						<h3><strong>Wisley</strong></h3>
+					</div>
+					<div class="pricing-terms">
+						<h6>68 99967-8391</h6>
+					</div>
+					<div class="pricing-action">
+						<a href="https://api.whatsapp.com/send?phone=5568999678391&text=Olá, Wisley. Estou entrando em contato a partir do site da Liga Acretinos." class="btn btn-medium btn-theme" target="_blank"><i class="icon-comment" ></i> Whatsapp</a>
+					</div>
+				</div>
+			</div>
         </div>
     </div>
 </section>

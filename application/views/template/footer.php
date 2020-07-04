@@ -1,18 +1,3 @@
-
-<section id="bottom">
-    <div class="container">
-        <div class="row">
-            <div class="span12">
-                <div class="aligncenter">
-                    <div id="twitter-wrapper">
-                        <div id="twitter">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <footer>
     <div class="container">
         <div class="row">
@@ -21,11 +6,10 @@
                     <h5 class="widgetheading">Administradores</h5>
                     <p>
                         <strong>LIGA ACRETINOS</strong><br>
-                        <i class="icon-phone"></i> Dealesson - (068) 9 9926-4852 <br>
-                        <i class="icon-phone"></i> Filipe - (068)  9 9966-0246 <br>
-                        <i class="icon-phone"></i> Matias - (068) 9 9968-4143 <br>
-                        <i class="icon-phone"></i> Vinícius - (068) 9 9203-8448 <br>
-                        <i class="icon-phone"></i> Wisley - (068) 9 9967-8391 <br>
+                        <a href="https://api.whatsapp.com/send?phone=5568999264852&text=Olá, Dealesson. Vim através do site da Liga Acretinos, e gostaria de mais informações sobre a liga. " target="_blank"><i class="icon-phone"></i> Dealesson - (068) 9 9926-4852 </a> <br>
+                        <a href="https://api.whatsapp.com/send?phone=5568999684143&text=Olá, Matias. Vim através do site da Liga Acretinos, e gostaria de mais informações sobre a liga. " target="_blank"><i class="icon-phone"></i> Matias - (068) 9 9968-4143 </a> <br>
+                        <a href="https://api.whatsapp.com/send?phone=5568992038448&text=Olá, Vinícius. Vim através do site da Liga Acretinos, e gostaria de mais informações sobre a liga. " target="_blank"><i class="icon-phone"></i> Vinícius - (068) 9 9203-8448 </a> <br>
+                        <a href="https://api.whatsapp.com/send?phone=5568999678391&text=Olá, Wisley. Vim através do site da Liga Acretinos, e gostaria de mais informações sobre a liga. " target="_blank"><i class="icon-phone"></i> Wisley - (068) 9 9967-8391 </a> <br>
                     </p>
                 </div>
             </div>
